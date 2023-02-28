@@ -1,10 +1,8 @@
-import tareas from './Task'
-import {useState} from 'react'
+import {tareas} from './Task'
 
-export function TaskList(){
+export const TaskList = () => {
+    console.log(tareas);
     return (<div>
         <h1>TaskList</h1>
     </div>)
 }
-
-export default TaskList

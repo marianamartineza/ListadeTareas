@@ -1,10 +1,10 @@
 import './App.css'
-import TaskList from './Tasklist'
+import {TaskList} from './Tasklist'
 
-export const HolaMundo = () => {
+export const App = () => {
   return (
-  <>
-    <TaskList/>
-  </>
+    <>
+      <TaskList/>
+    </>
   )
 }

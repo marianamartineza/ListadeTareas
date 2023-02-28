@@ -1,24 +1,22 @@
 export const tareas = [
     {
-        "id": 01,
+        "id": 1,
         "title": "Mi primer tarea",
         "description": "Esto es lo que tengo que hacer"
     },
     {
-        "id": 02,
+        "id": 2,
         "title": "Compras Generales y Pagos",
         "description": "Esto es lo que tengo que hacer"
     },
     {
-        "id": 03,
+        "id": 3,
         "title": "Compras en la tienda",
         "description": "Esto es lo que tengo que hacer"
     },
     {
-        "id": 04,
+        "id": 4,
         "title": "Compras del Supermercado",
         "description": "Esto es lo que tengo que hacer"
     }
 ]
-
-export default tareas
