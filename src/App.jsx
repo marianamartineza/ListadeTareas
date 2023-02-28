@@ -1,10 +1,14 @@
-import './App.css'
-import {TaskList} from './Tasklist'
+import { TaskItem } from "./TaskItem"
+import { Tasklist } from "./Tasklist"
+
+
 
 export const App = () => {
   return (
     <>
-      <TaskList/>
+      <Tasklist/>
+      <TaskItem/>
+    
     </>
   )
 }
